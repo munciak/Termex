@@ -166,6 +166,8 @@ include_directories(
 catkin_install_python(PROGRAMS
     scripts/listener.py
     scripts/blobs_rellocation.py
+    scripts/visualization.py
+    scripts/calculate_rellocation.py
     DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
